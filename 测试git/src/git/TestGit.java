@@ -10,6 +10,15 @@ public class TestGit {
 		System.out.println("我是你爸爸！！！");
 		System.out.println("我是你妈妈妈妈吗!!!");
 		System.out.println("111111");
+		System.out.println("恢复");		System.out.println("我是你爸爸！！！");
+		System.out.println("我是你妈妈妈妈吗!!!");
+		System.out.println("111111");
+		System.out.println("恢复");		System.out.println("我是你爸爸！！！");
+		System.out.println("我是你妈妈妈妈吗!!!");
+		System.out.println("111111");
+		System.out.println("恢复");		System.out.println("我是你爸爸！！！");
+		System.out.println("我是你妈妈妈妈吗!!!");
+		System.out.println("111111");
 		System.out.println("恢复");
 	}
 
