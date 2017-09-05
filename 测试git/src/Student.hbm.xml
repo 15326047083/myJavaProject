@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
-<!-- Generated 2017-9-5 11:14:08 by Hibernate Tools 3.4.0.CR1 -->
+<!-- Generated 2017-9-5 12:14:55 by Hibernate Tools 3.4.0.CR1 -->
 <hibernate-mapping>
     <class name="Student" table="STUDENT">
-        <id name="num" type="int">
+        <id name="num" type="java.lang.String">
             <column name="NUM" />
-            <generator class="native" />
+            <generator class="uuid" />
         </id>
         <property name="name" type="java.lang.String">
             <column name="NAME" />

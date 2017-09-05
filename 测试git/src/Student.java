@@ -5,7 +5,7 @@ import java.util.Date;
 //学生类
 public class Student {
 
-	private int num;// 学号
+	private String num;// 学号
 	private String name;// 姓名
 	private String gender;// 性别
 	private Date birthday;// 生日
@@ -24,7 +24,7 @@ public class Student {
 	 * @param birthday
 	 * @param address
 	 */
-	public Student(int num, String name, String gender, Date birthday,
+	public Student(String num, String name, String gender, Date birthday,
 			String address) {
 		this.num = num;
 		this.name = name;
@@ -33,11 +33,11 @@ public class Student {
 		this.address = address;
 	}
 
-	public int getNum() {
+	public String getNum() {
 		return num;
 	}
 
-	public void setNum(int num) {
+	public void setNum(String num) {
 		this.num = num;
 	}
 
